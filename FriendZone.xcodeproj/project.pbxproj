@@ -21,6 +21,7 @@
 		5499366A242F675700EC2980 /* FriendZoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54993669242F675700EC2980 /* FriendZoneTests.swift */; };
 		54993675242F69B700EC2980 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54993674242F69B700EC2980 /* Friend.swift */; };
 		54993677242F799800EC2980 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54993676242F799800EC2980 /* FriendViewController.swift */; };
+		54D6CA2B243B46D90041FD0F /* FriendDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D6CA2A243B46D90041FD0F /* FriendDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5499366B242F675700EC2980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54993674242F69B700EC2980 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		54993676242F799800EC2980 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		54D6CA2A243B46D90041FD0F /* FriendDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				54993674242F69B700EC2980 /* Friend.swift */,
 				54993676242F799800EC2980 /* FriendViewController.swift */,
 				54481E922430B93300CBDE99 /* TextTableViewCell.swift */,
+				54D6CA2A243B46D90041FD0F /* FriendDataSource.swift */,
 			);
 			path = FriendZone;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54150A4524327D4D00851B69 /* Coordinator.swift in Sources */,
+				54D6CA2B243B46D90041FD0F /* FriendDataSource.swift in Sources */,
 				54481E932430B93300CBDE99 /* TextTableViewCell.swift in Sources */,
 				54993657242F674400EC2980 /* ViewController.swift in Sources */,
 				54150A4724327D4D00851B69 /* MainCoordinator.swift in Sources */,
